@@ -1,0 +1,41 @@
+1) Min-height : defines minimum height but maximum can be increase 
+2) Max-height : in this, minimum height is content and max height can be defined
+
+=> min-max height ka istemaal krke ek range of height bhi define kr skte hai 
+=> height me sirf ek height fix ho jayegi na minum na maximum
+=> same with widths also 
+
+3) box-sizing : border-box || content-box (by default)
+    
+    $ border-box -> 
+        ye box ka jo size humne badaya hai usko badne se prevent krta hai , mainly border aur padding unki vjeh se width height increase hoti hai , 
+        i)  box-sizing: border-box enforces the total size.
+        ii) If border + padding > width, the content gets squashed or disappears.
+
+
+4) OVERFLOW
+    overflow : hide || visible || scroll || auto
+    auto mein jab content overflow krta tab automatically scroll ata hai, scroll me overflow na kr ra ho tab b ata hai 
+
+    overflow types -> 
+        a) overflow-x (ex -for images) 
+        b) overflow-y 
+        c) overflow (works for both horizontal and vertical overflow)
+
+5) box-shadow 
+    box-shadow : xShadow yshadow blur spread color; (last 3 para are optional - color,blur,spread)
+        xshadow, yshdow me hum negative b de skte hai , by default right-bottom pr shdow aygi , xshadow  -gative dene pr left me jayegi , yshadow -gative dene pr top pr jayegi
+
+6) Float : left || right
+    left -> left me ja aur right ki saari jagah chhod de
+    right -> right me ja aur left ki saari jagah chhod de 
+
+    Box left side me chipak jayega.
+    Jaise newspaper me ek image hoti hai left me, aur text uske side se lapet jata hai.
+
+7) GRID
+    IMPORTANT TERMS --
+    a)grid - representation of layout in rows and columns 
+    b)grid items - elements inside grid 
+    c)gutter - gap between grid items 
+    d)grid lines - lines of grids is represented by some number which is called grid lines
