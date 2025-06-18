@@ -1,0 +1,85 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+.boxes{
+    width : 800px;
+    height : 400px;
+    background : grey;
+    margin : 40px auto;
+
+    /* if we only do display grid then all the boxes automatically takes "auto" width means 100% width of container. */
+    display : grid;
+    /* 
+
+    # GRID-TEMPLATE-COLUMNS
+    ye saare boxes ko do columns me divide krega ek ko 200px dega aur dusre ko 400px agr total jada hoga toh overflow krega 
+    agr zada para denge to columns aur zada me divide ho jayenge
+
+    */
+    grid-template-columns: 200px 300px 200px;
+
+    /* 
+    
+    # GRID-TEMPLATE-COLUMNS
+    ye rows ki height ko define krne k liye use hota hai ,
+    
+    **** **********
+    possible values - px, auto(jisse automaticaaly baaki bachi hui space occupy krega),
+    1fr - ye bhi ek unit hai pixel ki trah , it stands for fraction agr hum 1fr 1fr de toh ye half half equal size me divide krdega
+    3fr - mtlb 3 gunna , baaki thode chhote ho jayenge aur isse 3 logo ki jagah mil jayegi
+    */
+
+    /*
+    
+    # repeat(no. of columns or rows , size in - pix or fr or auto)
+        repeat(2,150px)
+     ex- grid-template-columns : repeat(2,150px) - 2 columns of 150px 
+     
+     */
+    grid-template-rows: 150px 150px;
+
+
+
+    /* grid-gap : 20px, grid-column-gap : 20px, grid-row-gap : 20px */
+    grid-gap : 20px;
+   
+
+    /*
+    # GRID POSITIONING
+    a) grid-column-start : 1(or any grid line no.)
+    b) grid-column-end  
+    c) grid-column
+
+    d) grid-row-start
+    e) grid-row-end
+    f) grid-row
+
+    g) grid-area
+
+    grid-line ki madad se krna sahi hoga but ye sirf firefox me hai 
+    steps : developer tools > jaha css likhi hoti hai waha container k aage grid likha hoga uske aage grid ka icon usse click kro the grid line will appear
+    */
+
+}
+
+.box1{
+    background : yellow;
+}
+.box2{
+    background : red;
+}
+.box3{
+    background : green;
+}
+.box4{
+    background : pink;
+}
+.box5{
+    background : blue;
+}
+.box6{
+    background : blueviolet;
+}
