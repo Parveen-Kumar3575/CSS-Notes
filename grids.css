@@ -42,7 +42,7 @@
     grid-template-rows: 150px 150px;
 
 
-    
+
 
     /* grid-gap : 20px, grid-column-gap : 20px, grid-row-gap : 20px */
     grid-gap : 20px;
@@ -54,7 +54,7 @@
     b) grid-column-end  
     c) grid-column
 
-    d) grid-row-start
+    d) grid-row-start                                      
     e) grid-row-end
     f) grid-row
 
