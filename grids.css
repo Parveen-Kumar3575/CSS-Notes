@@ -37,11 +37,12 @@
     # repeat(no. of columns or rows , size in - pix or fr or auto)
         repeat(2,150px)
      ex- grid-template-columns : repeat(2,150px) - 2 columns of 150px 
-     
+       
      */
     grid-template-rows: 150px 150px;
 
 
+    
 
     /* grid-gap : 20px, grid-column-gap : 20px, grid-row-gap : 20px */
     grid-gap : 20px;
